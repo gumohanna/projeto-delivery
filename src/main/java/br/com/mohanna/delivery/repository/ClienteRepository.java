@@ -1,0 +1,7 @@
+package br.com.mohanna.delivery.repository;
+
+import br.com.mohanna.delivery.domain.cliente.Cliente;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {
+}
