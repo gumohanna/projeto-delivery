@@ -11,6 +11,8 @@ Interface React para a API Spring Boot de delivery. O backend não foi modificad
 
 Durante o desenvolvimento, o Vite encaminha as chamadas feitas para `/api/*` à API em `http://localhost:8080`, sem exigir alteração de CORS no backend.
 
+Em produção, o `vercel.json` encaminha as chamadas `/api/*` ao backend publicado no Railway, sem exigir alteração de CORS no backend.
+
 ## Telas disponíveis
 
 ### Início
